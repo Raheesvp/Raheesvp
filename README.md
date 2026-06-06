@@ -29,12 +29,12 @@ I design and ship **production-grade .NET Core systems** — from JWT-secured RE
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&hide_border=true&langs_count=8" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Raheesvp&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raheesvp&layout=compact&theme=dark&hide_border=true&langs_count=8" height="170" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=Raheesvp&theme=dark&hide_border=true" />
 </div>
 
 ---
@@ -43,25 +43,25 @@ I design and ship **production-grade .NET Core systems** — from JWT-secured RE
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)"
-          srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake animation"
-       src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" />
+          srcset="https://raw.githubusercontent.com/Raheesvp/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Raheesvp/Raheesvp/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution snake animation"
+         src="https://raw.githubusercontent.com/Raheesvp/Raheesvp/output/github-contribution-grid-snake.svg" />
 </picture>
 
 ---
 
 ## 🏅 Holopin Badges
 
-[![@YOUR_GITHUB_USERNAME's Holopin board](https://holopin.me/YOUR_GITHUB_USERNAME)](https://holopin.io/@YOUR_GITHUB_USERNAME)
+[![@Raheesvp's Holopin board](https://holopin.me/\Raheesvp)](https://holopin.io/@Raheesvp)
 
 ---
 
 ## 📈 Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=react-dark&hide_border=true&area=true&custom_title=Mohammed%20Rahees%20-%20Contribution%20Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raheesvp&theme=react-dark&hide_border=true&area=true&custom_title=Mohammed%20Rahees%20-%20Contribution%20Graph" />
 </div>
 
 ---
@@ -109,13 +109,13 @@ I design and ship **production-grade .NET Core systems** — from JWT-secured RE
 ## 🌐 Connect
 
 <p>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_SLUG">
+  <a href="https://linkedin.com/in/rahees-vp">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:mohammedrahees91@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+  <a href="https://github.com/Raheesvp">
     <img src="https://img.shields.io/badge/GitHub-1A1A1A?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="YOUR_PORTFOLIO_URL">
