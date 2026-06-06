@@ -32,11 +32,7 @@ I design and ship **production-grade .NET Core systems** — from JWT-secured RE
 
 
 
-## 🏅 Holopin Badges
 
-[![@Raheesvp's Holopin board](https://holopin.me/\Raheesvp)](https://holopin.io/@Raheesvp)
-
----
 
 ## 📈 Contribution Activity
 
