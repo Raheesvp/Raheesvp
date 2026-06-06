@@ -18,13 +18,6 @@ I design and ship **production-grade .NET Core systems** — from JWT-secured RE
 
 ---
 
-## 👀 Profile Views
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Raheesvp&label=Profile%20Views&color=0F6E56&style=for-the-badge" alt="Profile Views" />
-</p>
-
----
 
 ## 📊 GitHub Stats
 
