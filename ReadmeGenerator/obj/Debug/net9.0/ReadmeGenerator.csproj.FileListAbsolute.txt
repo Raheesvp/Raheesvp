@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\bin\Debug\net9.0\ReadmeGenerator.exe
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\bin\Debug\net9.0\ReadmeGenerator.deps.json
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\bin\Debug\net9.0\ReadmeGenerator.runtimeconfig.json
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\bin\Debug\net9.0\ReadmeGenerator.dll
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\bin\Debug\net9.0\ReadmeGenerator.pdb
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\obj\Debug\net9.0\ReadmeGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\obj\Debug\net9.0\ReadmeGenerator.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\obj\Debug\net9.0\ReadmeGenerator.AssemblyInfo.cs
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\obj\Debug\net9.0\ReadmeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\obj\Debug\net9.0\ReadmeGenerator.sourcelink.json
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\obj\Debug\net9.0\ReadmeGenerator.dll
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\obj\Debug\net9.0\refint\ReadmeGenerator.dll
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\obj\Debug\net9.0\ReadmeGenerator.pdb
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\obj\Debug\net9.0\ReadmeGenerator.genruntimeconfig.cache
+C:\Users\DELL\Desktop\portfolio_ai\Rahees_ReadMe\ReadmeGenerator\obj\Debug\net9.0\ref\ReadmeGenerator.dll
