@@ -14,7 +14,7 @@
 
 I design and ship **production-grade .NET Core systems** — from JWT-secured REST APIs and optimised SQL Server schemas to RabbitMQ async pipelines and React + TypeScript frontends.
 
-<br clear="all" />
+
 
 ---
 
