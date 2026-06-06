@@ -30,20 +30,7 @@ I design and ship **production-grade .NET Core systems** — from JWT-secured RE
   <img src="https://streak-stats.demolab.com?user=Raheesvp&theme=dark&hide_border=true" />
 </div>
 
----
 
-## 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/Raheesvp/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/Raheesvp/Raheesvp/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution snake animation"
-         src="https://raw.githubusercontent.com/Raheesvp/Raheesvp/output/github-contribution-grid-snake.svg" />
-</picture>
-
----
 
 ## 🏅 Holopin Badges
 
