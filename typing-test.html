@@ -1,1 +1,452 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test - Mohammed Rahees</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Fira Code', 'Courier New', monospace;
+            background: linear-gradient(135deg, #0d1117 0%, #1a1f2e 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(13, 17, 23, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 900px;
+            width: 100%;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid #58a6ff;
+        }
+
+        h1 {
+            color: #58a6ff;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #8b949e;
+            margin-bottom: 30px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .stat-card {
+            background: #161b22;
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 3px solid #58a6ff;
+        }
+
+        .stat-label {
+            color: #8b949e;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            color: #58a6ff;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .text-display {
+            background: #161b22;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #c9d1d9;
+            border: 1px solid #30363d;
+        }
+
+        .text-display span {
+            display: inline-block;
+        }
+
+        .text-display .correct {
+            color: #2ea043;
+        }
+
+        .text-display .incorrect {
+            color: #f85149;
+            background: rgba(248, 81, 73, 0.1);
+            text-decoration: underline;
+        }
+
+        .text-display .current {
+            background: #58a6ff;
+            color: #0d1117;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0.7; }
+        }
+
+        textarea {
+            width: 100%;
+            padding: 15px;
+            font-family: 'Fira Code', monospace;
+            font-size: 1.1em;
+            background: #0d1117;
+            border: 2px solid #30363d;
+            color: #c9d1d9;
+            border-radius: 10px;
+            resize: vertical;
+            margin-bottom: 20px;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #58a6ff;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        button {
+            background: #238636;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1em;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: monospace;
+        }
+
+        button:hover {
+            background: #2ea043;
+            transform: translateY(-2px);
+        }
+
+        button.reset-btn {
+            background: #da3633;
+        }
+
+        button.reset-btn:hover {
+            background: #f85149;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background: #161b22;
+            border-radius: 10px;
+            text-align: center;
+            display: none;
+        }
+
+        .result.show {
+            display: block;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .result h3 {
+            color: #58a6ff;
+            margin-bottom: 10px;
+        }
+
+        .result p {
+            color: #c9d1d9;
+            margin: 5px 0;
+        }
+
+        .high-score {
+            color: #f0883e;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            .stat-value {
+                font-size: 1.5em;
+            }
+            .text-display {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⌨️ Developer Typing Test</h1>
+        <div class="subtitle">Test your typing speed with code snippets</div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-label">Time</div>
+                <div class="stat-value" id="timer">60</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">WPM</div>
+                <div class="stat-value" id="wpm">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Accuracy</div>
+                <div class="stat-value" id="accuracy">100</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">High Score</div>
+                <div class="stat-value high-score" id="highScore">0</div>
+            </div>
+        </div>
+
+        <div class="text-display" id="textDisplay"></div>
+        
+        <textarea id="userInput" rows="4" placeholder="Click 'Start Test' and type here..." disabled></textarea>
+        
+        <div class="controls">
+            <button id="startBtn">▶ Start Test</button>
+            <button id="resetBtn" class="reset-btn">⟳ Reset</button>
+        </div>
+
+        <div class="result" id="result">
+            <h3>🎉 Test Complete!</h3>
+            <p>Your Speed: <strong id="finalWPM">0</strong> WPM</p>
+            <p>Accuracy: <strong id="finalAccuracy">0</strong>%</p>
+            <p id="highScoreMsg"></p>
+        </div>
+    </div>
+
+    <script>
+        // Sample code snippets for typing test
+        const snippets = [
+            "public async Task<IActionResult> GetUser(int id) { var user = await _context.Users.FindAsync(id); return Ok(user); }",
+            "services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));",
+            "app.UseAuthentication(); app.UseAuthorization(); app.MapControllers();",
+            "var config = new MapperConfiguration(cfg => cfg.CreateMap<User, UserDto>());",
+            "dotnet add package Microsoft.EntityFrameworkCore.SqlServer",
+            "FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base WORKDIR /app EXPOSE 80",
+            "git add . git commit -m 'feat: add new feature' git push origin main",
+            "SELECT * FROM Users WHERE IsActive = 1 ORDER BY CreatedAt DESC",
+            "const [data, setData] = useState(null); useEffect(() => { fetchData(); }, []);",
+            "docker build -t myapp . docker run -p 8080:80 myapp"
+        ];
+
+        let currentSnippet = "";
+        let timer = 60;
+        let isTestActive = false;
+        let interval = null;
+        let startTime = null;
+        let typedChars = 0;
+        let correctChars = 0;
+        let currentPosition = 0;
+
+        // Load high score from localStorage
+        let highScore = localStorage.getItem('typingHighScore') || 0;
+        document.getElementById('highScore').textContent = highScore;
+
+        function getRandomSnippet() {
+            return snippets[Math.floor(Math.random() * snippets.length)];
+        }
+
+        function displayText() {
+            const display = document.getElementById('textDisplay');
+            display.innerHTML = '';
+            
+            for (let i = 0; i < currentSnippet.length; i++) {
+                const char = currentSnippet[i];
+                const span = document.createElement('span');
+                span.textContent = char;
+                
+                if (i < currentPosition) {
+                    // Already typed
+                    if (i < typedChars) {
+                        span.className = 'correct';
+                    }
+                } else if (i === currentPosition && isTestActive) {
+                    span.className = 'current';
+                }
+                
+                display.appendChild(span);
+            }
+        }
+
+        function calculateWPM() {
+            if (!startTime) return 0;
+            const minutesElapsed = (Date.now() - startTime) / 60000;
+            const wordsTyped = typedChars / 5; // Standard: 5 chars = 1 word
+            return Math.floor(wordsTyped / minutesElapsed);
+        }
+
+        function calculateAccuracy() {
+            if (typedChars === 0) return 100;
+            return Math.floor((correctChars / typedChars) * 100);
+        }
+
+        function updateStats() {
+            if (!isTestActive) return;
+            
+            const wpm = calculateWPM();
+            const accuracy = calculateAccuracy();
+            
+            document.getElementById('wpm').textContent = wpm;
+            document.getElementById('accuracy').textContent = accuracy;
+        }
+
+        function endTest() {
+            if (interval) {
+                clearInterval(interval);
+                interval = null;
+            }
+            
+            isTestActive = false;
+            const finalWPM = calculateWPM();
+            const finalAccuracy = calculateAccuracy();
+            
+            document.getElementById('finalWPM').textContent = finalWPM;
+            document.getElementById('finalAccuracy').textContent = finalAccuracy;
+            
+            const resultDiv = document.getElementById('result');
+            const highScoreMsg = document.getElementById('highScoreMsg');
+            
+            if (finalWPM > highScore) {
+                highScore = finalWPM;
+                localStorage.setItem('typingHighScore', highScore);
+                document.getElementById('highScore').textContent = highScore;
+                highScoreMsg.innerHTML = `🏆 NEW HIGH SCORE! You beat the previous record of ${highScore} WPM!`;
+                highScoreMsg.style.color = '#f0883e';
+            } else {
+                highScoreMsg.innerHTML = `Current High Score: ${highScore} WPM. Keep practicing!`;
+                highScoreMsg.style.color = '#8b949e';
+            }
+            
+            resultDiv.classList.add('show');
+            document.getElementById('userInput').disabled = true;
+        }
+
+        function startTimer() {
+            timer = 60;
+            document.getElementById('timer').textContent = timer;
+            
+            interval = setInterval(() => {
+                if (timer > 0 && isTestActive) {
+                    timer--;
+                    document.getElementById('timer').textContent = timer;
+                    
+                    if (timer === 0) {
+                        endTest();
+                    }
+                }
+            }, 1000);
+        }
+
+        function startTest() {
+            if (isTestActive) return;
+            
+            currentSnippet = getRandomSnippet();
+            typedChars = 0;
+            correctChars = 0;
+            currentPosition = 0;
+            startTime = Date.now();
+            isTestActive = true;
+            
+            document.getElementById('result').classList.remove('show');
+            document.getElementById('userInput').value = '';
+            document.getElementById('userInput').disabled = false;
+            document.getElementById('userInput').focus();
+            
+            displayText();
+            startTimer();
+            updateStats();
+        }
+
+        function resetTest() {
+            if (interval) {
+                clearInterval(interval);
+                interval = null;
+            }
+            
+            isTestActive = false;
+            timer = 60;
+            typedChars = 0;
+            correctChars = 0;
+            currentPosition = 0;
+            
+            document.getElementById('timer').textContent = timer;
+            document.getElementById('wpm').textContent = 0;
+            document.getElementById('accuracy').textContent = 100;
+            document.getElementById('userInput').value = '';
+            document.getElementById('userInput').disabled = true;
+            document.getElementById('result').classList.remove('show');
+            
+            currentSnippet = getRandomSnippet();
+            displayText();
+        }
+
+        document.getElementById('userInput').addEventListener('input', function(e) {
+            if (!isTestActive) return;
+            
+            const inputText = e.target.value;
+            const lastChar = inputText[inputText.length - 1];
+            const expectedChar = currentSnippet[inputText.length - 1];
+            
+            if (lastChar === expectedChar) {
+                correctChars++;
+            }
+            
+            typedChars = inputText.length;
+            currentPosition = inputText.length;
+            
+            displayText();
+            updateStats();
+            
+            // Auto-end if completed
+            if (inputText.length === currentSnippet.length) {
+                endTest();
+            }
+        });
+
+        document.getElementById('startBtn').addEventListener('click', startTest);
+        document.getElementById('resetBtn').addEventListener('click', resetTest);
+        
+        // Initialize with random snippet
+        currentSnippet = getRandomSnippet();
+        displayText();
+    </script>
+</body>
+</html>
