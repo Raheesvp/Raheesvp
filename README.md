@@ -78,50 +78,7 @@
 
 ---
 
-## 📊 By the Numbers
 
-| Metric | Impact |
-|---|---|
-| ⚡ API Response Time | ~60% reduction (800ms → 300ms) via indexing + EF Core tuning |
-| 👥 SaaS Users Served | 500+ users · 10,000+ transactions |
-| 🏆 SPL Concurrent Users | 1,000+ on live tournament platform |
-| 📁 Async File Processing | 100MB+ uploads via RabbitMQ chunked pipeline |
-
----
-
-## 🚀 Featured Projects
-
-### 🏆 [SPL — Super Premier League](https://github.com/Raheesvp)
-> Live tournament management platform · ASP.NET Core · React + TypeScript · SQL Server
-
-- Engineered RESTful API endpoints and SQL Server schemas for **real-time match tracking and standings**
-- Applied OOP design patterns and **clean architecture** across full-stack layers
-- Supports **1,000+ concurrent users** in production
-
-`ASP.NET Core` `React` `TypeScript` `SQL Server` `Web API`
-
----
-
-### ✈️ [Flight Ticket Booking System](https://github.com/Raheesvp)
-> ASP.NET MVC · C# · EF Core · SQL Server · Razorpay
-
-- Real-time flight search, dynamic seat selection, **Razorpay payment integration**, automated PDF e-ticket generation
-- **Repository & Unit of Work** design pattern · ASP.NET Identity role-based authorisation
-- Admin dashboard with **Excel export** and EF Core Code First migrations
-
-`ASP.NET MVC` `C#` `EF Core` `SQL Server` `ASP.NET Identity` `Razorpay`
-
----
-
-### 📄 [Document Management SaaS](https://github.com/Raheesvp)
-> ASP.NET Core · React · RabbitMQ · Elasticsearch · Multi-tenant
-
-- Organisation-scoped secure file management with **multi-tenant data isolation**
-- Handled **100MB+ uploads** via RabbitMQ background processing and resumable chunked uploads
-
-`ASP.NET Core` `React` `RabbitMQ` `Elasticsearch` `SQL Server`
-
----
 
 ## 📈 GitHub Stats
 
