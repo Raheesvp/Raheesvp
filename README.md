@@ -1,24 +1,169 @@
-<h1 align="center">Hi 👋, I'm Mohammed Rahees</h1>
-<h3 align="center">Building Scalable Systems with .NET Core & React</h3>
+<img align="center" alt="Banner" src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif"/>
+
+<h1 align="left">
+  <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="28" />
+  Hi, I'm <strong>Mohammed Rahees</strong>
+</h1>
+
+<h3>Full Stack .NET Core Developer | C# • ASP.NET Core • React • SQL Server</h3>
+
+<div align="left">
+  <img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" />
+
+  <p>
+    I design and ship <strong>production-grade .NET Core systems</strong> — from JWT-secured REST APIs
+    and optimised SQL Server schemas to RabbitMQ async pipelines and React + TypeScript frontends.<br/>
+    I care about clean architecture, measurable performance, and code that's maintainable at scale.
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/🌍_Malappuram,_India-1e1e2e?style=for-the-badge" />
+    <a href="mailto:mohammedrahees91@gmail.com">
+      <img src="https://img.shields.io/badge/📧_mohammedrahees91@gmail.com-1e1e2e?style=for-the-badge" />
+    </a>
+    <img src="https://img.shields.io/badge/✅_Open_to_Opportunities-0F6E56?style=for-the-badge" />
+  </p>
+
+  <h3>🌐 Socials</h3>
+  <p align="left">
+    <a href="https://github.com/Raheesvp">
+      <img src="https://img.shields.io/badge/GitHub-1A1A1A?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+    <a href="https://linkedin.com/in/YOUR_LINKEDIN_SLUG">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+    <a href="YOUR_PORTFOLIO_URL">
+      <img src="https://img.shields.io/badge/Portfolio-0F6E56?style=for-the-badge&logo=googlechrome&logoColor=white" />
+    </a>
+    <a href="mailto:mohammedrahees91@gmail.com">
+      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    </a>
+  </p>
+
+  <img src="https://komarev.com/ghpvc/?username=Raheesvp&label=Profile%20Views&style=flat-square&color=0F6E56" alt="Profile Views" />
+</div>
+
+<br clear="all" />
+
+---
+
+## 🛠️ Skills
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=2D9CDB&center=true&vCenter=true&width=600&lines=Full+Stack+.NET+Core+Developer;Clean+Architecture+%7C+Docker+%7C+AWS;Microservices+%7C+RabbitMQ+%7C+EF+Core;TypeScript+%7C+React+%7C+SQL+Server" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20to%20Work-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kerala%2C%20India-FF6B6B?style=for-the-badge&logo=googlemaps&logoColor=white" />
-  <a href="mailto:mohammedrahees91@gmail.com">
-    <img src="https://img.shields.io/badge/mohammedrahees91@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+<table>
+<tr>
+<td width="50%" align="center">
+  <h3>💻 Languages</h3>
+  <img src="https://skillicons.dev/icons?i=cs,js,typescript" />
+  <br/><br/>
+</td>
+<td width="50%" align="center">
+  <h3>⚙️ Backend & Frameworks</h3>
+  <img src="https://skillicons.dev/icons?i=dotnet,react,angular" />
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+  <h3>🗄️ Databases</h3>
+  <img src="https://skillicons.dev/icons?i=mssql,redis" />
+  <br/><br/>
+</td>
+<td width="50%" align="center">
+  <h3>🧰 Cloud & DevOps</h3>
+  <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,git,postman" />
+</td>
+</tr>
+</table>
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+## 📊 By the Numbers
 
-```text
-🚀 Full Stack Developer specializing in production-grade .NET Core ecosystems
-🔐 Building JWT-secured REST APIs, optimized SQL schemas & async pipelines
-⚡ Passionate about clean architecture, DDD, and performance optimization
-🎯 1 year of experience delivering enterprise-grade web applications
+| Metric | Impact |
+|---|---|
+| ⚡ API Response Time | ~60% reduction (800ms → 300ms) via indexing + EF Core tuning |
+| 👥 SaaS Users Served | 500+ users · 10,000+ transactions |
+| 🏆 SPL Concurrent Users | 1,000+ on live tournament platform |
+| 📁 Async File Processing | 100MB+ uploads via RabbitMQ chunked pipeline |
+
+---
+
+## 🚀 Featured Projects
+
+### 🏆 [SPL — Super Premier League](https://github.com/Raheesvp)
+> Live tournament management platform · ASP.NET Core · React + TypeScript · SQL Server
+
+- Engineered RESTful API endpoints and SQL Server schemas for **real-time match tracking and standings**
+- Applied OOP design patterns and **clean architecture** across full-stack layers
+- Supports **1,000+ concurrent users** in production
+
+`ASP.NET Core` `React` `TypeScript` `SQL Server` `Web API`
+
+---
+
+### ✈️ [Flight Ticket Booking System](https://github.com/Raheesvp)
+> ASP.NET MVC · C# · EF Core · SQL Server · Razorpay
+
+- Real-time flight search, dynamic seat selection, **Razorpay payment integration**, automated PDF e-ticket generation
+- **Repository & Unit of Work** design pattern · ASP.NET Identity role-based authorisation
+- Admin dashboard with **Excel export** and EF Core Code First migrations
+
+`ASP.NET MVC` `C#` `EF Core` `SQL Server` `ASP.NET Identity` `Razorpay`
+
+---
+
+### 📄 [Document Management SaaS](https://github.com/Raheesvp)
+> ASP.NET Core · React · RabbitMQ · Elasticsearch · Multi-tenant
+
+- Organisation-scoped secure file management with **multi-tenant data isolation**
+- Handled **100MB+ uploads** via RabbitMQ background processing and resumable chunked uploads
+
+`ASP.NET Core` `React` `RabbitMQ` `Elasticsearch` `SQL Server`
+
+---
+
+## 📈 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Raheesvp&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raheesvp&layout=compact&theme=dark&hide_border=true&langs_count=8" height="170" />
+</div>
+
+<div align="center">
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=Raheesvp&theme=dark&hide_border=true" alt="Streak" />
+</div>
+
+---
+
+## 📉 Contribution Activity Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raheesvp&theme=react-dark&hide_border=true&area=true&custom_title=Mohammed%20Rahees%20-%20Contribution%20Graph" />
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/Raheesvp/Raheesvp/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/Raheesvp/Raheesvp/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution snake animation"
+       src="https://raw.githubusercontent.com/Raheesvp/Raheesvp/output/github-contribution-grid-snake.svg" />
+</picture>
+
+---
+
+## 🏅 Holopin Badges
+
+[![@Raheesvp's Holopin board](https://holopin.me/Raheesvp)](https://holopin.io/@Raheesvp)
+
+---
+
+<div align="center">
+  <sub>Profile views counter live · Snake refreshes daily via GitHub Actions</sub>
+</div>
