@@ -10,11 +10,7 @@
 <div align="left">
   <img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" />
 
-  <p>
-    I design and ship <strong>production-grade .NET Core systems</strong> — from JWT-secured REST APIs
-    and optimised SQL Server schemas to RabbitMQ async pipelines and React + TypeScript frontends.<br/>
-    I care about clean architecture, measurable performance, and code that's maintainable at scale.
-  </p>
+
 
   <p>
     <img src="https://img.shields.io/badge/🌍_Malappuram,_India-1e1e2e?style=for-the-badge" />
