@@ -111,12 +111,5 @@
 
 ---
 
-## 🏅 Holopin Badges
-
-[![@Raheesvp's Holopin board](https://holopin.me/Raheesvp)](https://holopin.io/@Raheesvp)
-
 ---
 
-<div align="center">
-  <sub>Profile views counter live · Snake refreshes daily via GitHub Actions</sub>
-</div>
