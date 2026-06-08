@@ -36,7 +36,7 @@
     </a>
   </p>
 
-  <img src="https://komarev.com/ghpvc/?username=Raheesvp&label=Profile%20Views&style=flat-square&color=0F6E56" alt="Profile Views" />
+  
 </div>
 
 <br clear="all" />
