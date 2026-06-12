@@ -1,6 +1,6 @@
  <img align="center" alt="Banner" src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif"/>. 
 
-<img align="center" alt="Banner" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbms1N201amN4bWpxb3A2N3Z3b3g3ZHZidjFidm40M3Zidm40M3ZidiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif"/>
+<img align="center" alt="Banner" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbms1N201amN4bWpxb3A2N3Z3b3g3ZHZidjFidm40M3Zidm40M3ZidiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" width="100%"/>
 
 
 <h1 align="left">
