@@ -97,7 +97,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raheesvp&theme=react-dark&hide_border=true&area=true&custom_title=Mohammed%20Rahees%20-%20Contribution%20Graph" />
 </div>
 
----
+
 
 <!-- ## 🐍 Contribution Snake
 
@@ -110,7 +110,5 @@
        src="https://raw.githubusercontent.com/Raheesvp/Raheesvp/output/github-contribution-grid-snake.svg" />
 </picture> -->
 
----
 
----
 
